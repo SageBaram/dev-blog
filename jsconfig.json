@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "checkJs": false,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "target": "ES6",
+    "module": "commonjs",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "*": ["src/*", "node_modules/*"],
+      "shared/*": ["shared/*"],
+      "frontend/*": ["frontend/src/*"],
+      "backend/*": ["backend/src/*"]
+    }
+  },
+  "typeAcquisition": {
+    "include": ["express", "node", "react"]
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "build",
+    ".vscode",
+    ".nuxt",
+    "coverage",
+    "jspm_packages",
+    "tmp",
+    "temp",
+    "bower_components",
+    ".npm",
+    ".yarn"
+  ],
+  "include": ["frontend/src/**/*", "backend/src/**/*", "shared/**/*"]
+}
