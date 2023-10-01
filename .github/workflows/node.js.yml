@@ -7,19 +7,19 @@ on:
   push:
     branches: ["master"]
        paths:
-      - "**.js"
-      - "**.json"
-      - "**.jsx"
-      - "**.css"
-      - "**.yml"
+        - "**.js"
+        - "**.json"
+        - "**.jsx"
+        - "**.css"
+        - "**.yml"
   pull_request:
     branches: ["master"]
        paths:
-      - "**.js"
-      - "**.json"
-      - "**.jsx"
-      - "**.css"
-      - "**.yml"
+        - "**.js"
+        - "**.json"
+        - "**.jsx"
+        - "**.css"
+        - "**.yml"
 
 jobs:
   build:
