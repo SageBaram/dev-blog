@@ -1,20 +1,21 @@
 {
-  "name": "dev-blog-shared",
-  "author": "Sage Baram",
-  "description": "dev-blog shared utilities",
-  "license": "ISC",
-  "version": "0.0.0",
-  "main": "index.js",
-  "keywords": ["shared", "utilities"],
-  "homepage": "https://github.com/SageBaram/dev-blog/shared#readme",
-
-  "scripts": {
-    "build": "babel src --out-dir dist",
-    "watch": "babel src --out-dir dist --watch"
-  },
-
-  "devDependencies": {
-    "@babel/cli": "^7.22.15",
-    "@babel/preset-env": "^7.22.20"
-  }
+	"name": "dev-blog-shared",
+	"author": "Sage Baram",
+	"description": "dev-blog shared utilities",
+	"license": "ISC",
+	"version": "0.0.0",
+	"main": "index.js",
+	"keywords": [
+		"shared",
+		"utilities"
+	],
+	"homepage": "https://github.com/SageBaram/dev-blog/shared#readme",
+	"scripts": {
+		"build": "babel src --out-dir dist",
+		"watch": "babel src --out-dir dist --watch"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.22.15",
+		"@babel/preset-env": "^7.22.20"
+	}
 }
